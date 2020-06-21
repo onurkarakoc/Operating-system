@@ -1,0 +1,10 @@
+* In Task_queue function , we are creating tasks and also we are adding to the queue.
+* Under favour of Task_enqueue , we are adding tasks to the queue.
+* In Task_dequeue, I changed this code because of my design. I canceled the parameters. We have a global variable , taskroot. Also we are remove tasks from queue in sequence. So we can reach parameters of taskroot. Sequence is the point here.
+* Insert function inserts values to the list in ascending order.
+* Delete function deletes values from list.
+* We can search the values using Search function.
+* We are moving in the list using Traverse function.
+* Also I created Task_type_check function to check which process will be execute(Insert,delete or search).
+Because main function must be short.
+* By the way , I limited the values which is created randomly to increase the probability. If we want, we can change the limits. 
